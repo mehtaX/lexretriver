@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is identity theft under the IT Act?",
+    "ground_truth": "Identity theft is defined under Section 66C of the Information Technology Act, 2000 and involves fraudulent or dishonest use of another person's electronic signature, password, or unique identification feature.",
+    "expected_sources": [
+      {
+        "act": "Information Technology Act, 2000",
+        "section": "66C"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What punishment is prescribed under Section 66C?",
+    "ground_truth": "Section 66C provides imprisonment up to three years and a fine up to one lakh rupees.",
+    "expected_sources": [
+      {
+        "act": "Information Technology Act, 2000",
+        "section": "66C"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is cheating by personation using computer resources?",
+    "ground_truth": "Section 66D criminalizes cheating by personation through computer resources or communication devices.",
+    "expected_sources": [
+      {
+        "act": "Information Technology Act, 2000",
+        "section": "66D"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What is cyber terrorism?",
+    "ground_truth": "Cyber terrorism is defined under Section 66F and includes acts threatening the sovereignty, integrity, security, or defense of India through computer resources.",
+    "expected_sources": [
+      {
+        "act": "Information Technology Act, 2000",
+        "section": "66F"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What does Article 14 provide?",
+    "ground_truth": "Article 14 guarantees equality before the law and equal protection of the laws.",
+    "expected_sources": [
+      {
+        "act": "Constitution of India",
+        "section": "Article 14"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What does Article 21 provide?",
+    "ground_truth": "Article 21 protects life and personal liberty except according to procedure established by law.",
+    "expected_sources": [
+      {
+        "act": "Constitution of India",
+        "section": "Article 21"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What is a contract?",
+    "ground_truth": "A contract is an agreement enforceable by law.",
+    "expected_sources": [
+      {
+        "act": "Indian Contract Act, 1872",
+        "section": "Section 2(h)"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is theft?",
+    "ground_truth": "Theft is dishonest removal of movable property from another person's possession without consent.",
+    "expected_sources": [
+      {
+        "act": "Indian Penal Code",
+        "section": "Section 378"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What is personal data under DPDP Act?",
+    "ground_truth": "Personal data means any data about an identifiable individual.",
+    "expected_sources": [
+      {
+        "act": "Digital Personal Data Protection Act, 2023",
+        "section": "Definitions"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What rights does a Data Principal have?",
+    "ground_truth": "Rights include access, correction, erasure, grievance redressal, and nomination.",
+    "expected_sources": [
+      {
+        "act": "Digital Personal Data Protection Act, 2023",
+        "section": "Rights of Data Principal"
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LexRetriever</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header>
+      <h1>LexRetriever</h1>
+      <p>Ask your legal documents. Hybrid retrieval, reranking, citations, and observability included.</p>
+    </header>
+
+    <main>
+      <form id="query-form">
+        <label for="question">Legal question</label>
+        <textarea id="question" name="question" rows="4" placeholder="What does Section 66C of the IT Act cover?" required></textarea>
+        <button type="submit">Ask</button>
+      </form>
+
+      <section id="result" class="hidden">
+        <h2>Answer</h2>
+        <pre id="answer"></pre>
+        <div id="metadata"></div>
+      </section>
+
+      <section id="error" class="hidden"></section>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

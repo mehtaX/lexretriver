@@ -1,0 +1,87 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.app-shell {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+header p {
+  margin: 0;
+  color: #94a3b8;
+}
+
+form {
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid #334155;
+  background: #020617;
+  color: #e2e8f0;
+  padding: 1rem;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+button {
+  width: fit-content;
+  border: none;
+  border-radius: 999px;
+  background: #2563eb;
+  color: white;
+  padding: 0.9rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+#result, #error {
+  margin-top: 1.5rem;
+  border: 1px solid #334155;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  background: #020617;
+}
+
+#result.hidden, #error.hidden {
+  display: none;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.metadata-item {
+  margin-top: 0.75rem;
+  color: #cbd5e1;
+}
+
+#error {
+  color: #fecaca;
+}
