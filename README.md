@@ -4,7 +4,7 @@ An advanced, production-ready Legal retrieval-augmented generation (RAG) system 
 
 ---
 
-## 🏛️ System Architecture
+##  System Architecture
 
 LexRetriever implements a multi-stage retrieval and reranking pipeline to ensure high-fidelity response generation from legal documents.
 
@@ -47,7 +47,7 @@ flowchart TD
 
 ---
 
-## 🚀 Quickstart Guide
+##  Quickstart Guide
 
 ### Prerequisites
 
@@ -88,7 +88,7 @@ flowchart TD
 
 ---
 
-## 🧪 Evaluation Gating
+##  Evaluation Gating
 
 Run the validation suite to calculate Retrieval Recall, Citation Coverage, and Semantic Answer Similarity against the golden dataset:
 
@@ -102,7 +102,7 @@ python evaluation/evaluate.py --generate --ci
 
 ---
 
-## 🐳 Docker Deployment
+##  Docker Deployment
 
 To build and spin up the backend application alone:
 
